@@ -23,7 +23,7 @@ for i in range(rowSize):
     count = 0
     while count != colSize: # stun sayisi kadar asal sayi bulana kadar deniyor bu dongu.
         n = random.randint(0,100)
-        if isItPrime(n): # Asal ise calisie
+        if isItPrime(n): # Asal ise calisir.
             rows.append(n) # Sayi asal ise satira ekle.
             count +=1
             
