@@ -27,7 +27,4 @@ for i in sorted_values:
             print(a,i)
             break
     
-
-
 print("\nCongratulations {} you have the highest score in the class".format(a))
-
