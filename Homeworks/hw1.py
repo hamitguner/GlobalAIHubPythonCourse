@@ -1,16 +1,4 @@
-# Date 16.02.2020
 import random 
-
-def isItPrime(x):  # Burada fonksiyonda sayinin asal olup olmadigi kontrol ediliyor.
-    if x >1 :
-        for i in range(2,x):
-            if (x % i) == 0:
-                return False
-    else : # 0 dan kucukse sayi asal degildir.
-        return False    
-    
-    return True        
-    
 
 # Bu program dinamik olarak calisir asagdaki satir ve stun boyutu degistirileblir.
 
@@ -23,12 +11,17 @@ for i in range(rowSize):
     count = 0
     while count != colSize: # stun sayisi kadar asal sayi bulana kadar deniyor bu dongu.
         n = random.randint(0,100)
-        if isItPrime(n): # Asal ise calisir.
-            rows.append(n) # Sayi asal ise satira ekle.
-            count +=1
+        if n > 1 :
+            for i in range(2,n):
+                if (n % i) == 0:
+                    break
+            else:
+                rows.append(n) # Sayi asal ise satira ekle.
+                count +=1
             
     matrix.append(rows) 
     
     
 for i in matrix:
     print(i)    
+    
