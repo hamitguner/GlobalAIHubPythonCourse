@@ -3,7 +3,7 @@
 
 **Course Date:** 15.02.2021  
 **Name:** Hamit 
-**Surname:** Güner  
+**Surname:** Guner  
 **Email:** hamit.gunr@gmail.com  
 
   
@@ -19,5 +19,5 @@ import random
 ---
 
 ### Certification
-//![](img/certificate_ex.png)
+Henuz setifika verilmedi
 
