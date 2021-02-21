@@ -3,7 +3,6 @@
 
 **Course Date:** 15.02.2021  
 **Name:** Hamit 
-
 **Surname:** Güner  
 **Email:** hamit.gunr@gmail.com  
 
