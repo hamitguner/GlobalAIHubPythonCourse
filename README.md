@@ -24,3 +24,4 @@ import random
 ### Certification
 Henuz setifika verilmedi
 
+![](img\pythonCertificate.png)
