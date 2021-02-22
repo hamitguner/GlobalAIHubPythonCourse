@@ -22,6 +22,4 @@ import random
 ---
 
 ### Certification
-Henuz setifika verilmedi
-
-![](img\pythonCertificate.png)
+![](img/pythonCertificate.png)
